@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mobile Navbar</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"
+    />
+    <link rel="stylesheet" href="./css/mobile_nav.css" />
+  </head>
+  <body>
+    <div class="mobileNav_container">
+      <ul class="mobile_nav_top_ul">
+        <!-- 1st menu item -->
+        <li class="hamburger_menu">
+          <a href="#" onclick="show_hamburger_menu()" class="hamburger_menu_btn">
+            <span class="lnr lnr-menu" id="hamburger_menu_icon"></span>
+          </a>
+        </li>
+        <!-- 2nd menu item -->
+        <li class="mobile_search_box">
+          <a
+            href="#"
+            onclick="show_mobile_search()"
+            class="mobile_search_box_btn"
+          >
+            <span class="lnr lnr-magnifier" id="mobile_search_icon"></span>
+          </a>
+        </li>
+        <!-- 3rd menu item-->
+        <li class="mobile_profile_box">
+          <a
+            href="#"
+            onclick="show_mobile_profile()"
+            class="mobile_profile_box_btn"
+          >
+            <span class="lnr lnr-user" id="mobile_profile_icon"></span>
+          </a>
+        </li>
+        <!-- 4th menu item -->
+        <li class="moblie_cart">
+          <a href="#" onclick="show_mobile_cart()" class="mobile_cart_btn">
+            <span class="lnr lnr-cart cart_icon" id="mobile_cart_icon"></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- 1st menu item content start -->
+    <div class="mobile_hamburger_menu_content_container" id="show_hamburger_menu">
+      <div class="row">
+        <div class="col">
+          <div
+            id="hamburger_menu_item"
+            role="tablist"
+            aria-multiselectable="true"
+          >
+            <!-- Interior -->
+            <div class="mb-4 pb-2">
+              <div role="tab" id="mobile_interior">
+                <h5 class="mb-0">
+                  <a
+                    data-toggle="collapse"
+                    data-parent="#hamburger_menu_item"
+                    href="#mobile_interior_content_ID"
+                    aria-expanded="true"
+                    aria-controls="mobile_interior_content_ID"
+                  >
+                    <span class="mobile_hamburger_menu_link">Interior</span>
+                    <span
+                      class="lnr lnr-chevron-down"
+                      id="interior_down"
+                    ></span>
+                  </a>
+                </h5>
+              </div>
+              <div
+                id="mobile_interior_content_ID"
+                class="collapse in"
+                role="tabpanel"
+                aria-labelledby="mobile_interior"
+              >
+                <div class="mobile_interior_content">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <span class="lnr lnr-chevron-right"></span>
+                        <span class="mobile_hamburger_dropdown_link"
+                          >Tailored car Mats</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <span class="lnr lnr-chevron-right"></span>
+                        <span class="mobile_hamburger_dropdown_link"
+                          >Tailored car Mats</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <span class="lnr lnr-chevron-right"></span>
+                        <span class="mobile_hamburger_dropdown_link"
+                          >Tailored car Mats</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <span class="lnr lnr-chevron-right"></span>
+                        <span class="mobile_hamburger_dropdown_link"
+                          >Tailored car Mats</span
+                        ></a
+                      >
+                    </li>
+                    <li>
+                      <a href="">
+                        <span class="lnr lnr-chevron-right"></span>
+                        <span class="mobile_hamburger_dropdown_link"
+                          >Tailored car Mats</span
+                        >
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Exterior -->
+            <div class="mb-4 pb-2">
+              <div role="tab" id="mobile_exterior">
+                <h5 class="mb-0">
+                  <a
+                    data-toggle="collapse"
+                    data-parent="#hamburger_menu_item"
+                    href="#mobile_exterior_content_ID"
+                    aria-expanded="true"
+                    aria-controls="mobile_exterior_content_ID"
+                  >
+                    <span class="mobile_hamburger_menu_link">Exterior</span>
+                    <span
+                      class="lnr lnr-chevron-down"
+                      id="exterior_down"
+                    ></span>
+                  </a>
+                </h5>
+              </div>
+              <div
+                id="mobile_exterior_content_ID"
+                class="collapse in"
+                role="tabpanel"
+                aria-labelledby="mobile_exterior"
+              >
+                <div class="mobile_exterior_content">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <span class="lnr lnr-chevron-right"></span>
+                        <span class="mobile_hamburger_dropdown_link"
+                          >Tailored car Mats</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <span class="lnr lnr-chevron-right"></span>
+                        <span class="mobile_hamburger_dropdown_link"
+                          >Tailored car Mats</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <span class="lnr lnr-chevron-right"></span>
+                        <span class="mobile_hamburger_dropdown_link"
+                          >Tailored car Mats</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <span class="lnr lnr-chevron-right"></span>
+                        <span class="mobile_hamburger_dropdown_link"
+                          >Tailored car Mats</span
+                        ></a
+                      >
+                    </li>
+                    <li>
+                      <a href="">
+                        <span class="lnr lnr-chevron-right"></span>
+                        <span class="mobile_hamburger_dropdown_link"
+                          >Tailored car Mats</span
+                        >
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Lighting -->
+            <div class="mb-4 pb-2">
+              <div role="tab" id="mobile_lighting">
+                <h5 class="mb-0">
+                  <a
+                    data-toggle="collapse"
+                    data-parent="#hamburger_menu_item"
+                    href="#mobile_lighting_content_ID"
+                    aria-expanded="true"
+                    aria-controls="mobile_lighting_content_ID"
+                  >
+                    <span class="mobile_hamburger_menu_link">Lighting</span>
+                    <span
+                      class="lnr lnr-chevron-down"
+                      id="exterior_down"
+                    ></span>
+                  </a>
+                </h5>
+              </div>
+              <div
+                id="mobile_lighting_content_ID"
+                class="collapse in"
+                role="tabpanel"
+                aria-labelledby="mobile_lighting"
+              >
+                <div class="mobile_lighting_content">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <span class="lnr lnr-chevron-right"></span>
+                        <span class="mobile_hamburger_dropdown_link"
+                          >Tailored car Mats</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <span class="lnr lnr-chevron-right"></span>
+                        <span class="mobile_hamburger_dropdown_link"
+                          >Tailored car Mats</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <span class="lnr lnr-chevron-right"></span>
+                        <span class="mobile_hamburger_dropdown_link"
+                          >Tailored car Mats</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <span class="lnr lnr-chevron-right"></span>
+                        <span class="mobile_hamburger_dropdown_link"
+                          >Tailored car Mats</span
+                        ></a
+                      >
+                    </li>
+                    <li>
+                      <a href="">
+                        <span class="lnr lnr-chevron-right"></span>
+                        <span class="mobile_hamburger_dropdown_link"
+                          >Tailored car Mats</span
+                        >
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Repair Parts -->
+            <div class="mb-4 pb-2"
+              <div role="tab" id="mobile_repair_part">
+                <h5 class="mb-0">
+                  <a
+                    data-toggle="collapse"
+                    data-parent="#hamburger_menu_item"
+                    href="#mobile_repair_parts_content_ID"
+                    aria-expanded="true"
+                    aria-controls="mobile_repair_parts_content_ID"
+                  >
+                    <span class="mobile_hamburger_menu_link">Repair Parts</span>
+                    <span
+                      class="lnr lnr-chevron-down"
+                      id="exterior_down"
+                    ></span>
+                  </a>
+                </h5>
+              </div>
+              <div
+                id="mobile_repair_parts_content_ID"
+                class="collapse in"
+                role="tabpanel"
+                aria-labelledby="mobile_repair_part"
+              >
+                <div class="mobile_repair_parts_content">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <span class="lnr lnr-chevron-right"></span>
+                        <span class="mobile_hamburger_dropdown_link"
+                          >Tailored car Mats</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <span class="lnr lnr-chevron-right"></span>
+                        <span class="mobile_hamburger_dropdown_link"
+                          >Tailored car Mats</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <span class="lnr lnr-chevron-right"></span>
+                        <span class="mobile_hamburger_dropdown_link"
+                          >Tailored car Mats</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <span class="lnr lnr-chevron-right"></span>
+                        <span class="mobile_hamburger_dropdown_link"
+                          >Tailored car Mats</span
+                        ></a
+                      >
+                    </li>
+                    <li>
+                      <a href="">
+                        <span class="lnr lnr-chevron-right"></span>
+                        <span class="mobile_hamburger_dropdown_link"
+                          >Tailored car Mats</span
+                        >
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Body Parts -->
+            <div class="mb-4 pb-2">
+              <div role="tab" id="mobile_body_parts">
+                <h5 class="mb-0">
+                  <a
+                    data-toggle="collapse"
+                    data-parent="#hamburger_menu_item"
+                    href="#mobile_body_parts_content_ID"
+                    aria-expanded="true"
+                    aria-controls="mobile_body_parts_content_ID"
+                  >
+                    <span class="mobile_hamburger_menu_link">Repair Parts</span>
+                    <span
+                      class="lnr lnr-chevron-down"
+                      id="exterior_down"
+                    ></span>
+                  </a>
+                </h5>
+              </div>
+              <div
+                id="mobile_body_parts_content_ID"
+                class="collapse in"
+                role="tabpanel"
+                aria-labelledby="mobile_body_parts"
+              >
+                <div class="mobile_body_parts_content">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <span class="lnr lnr-chevron-right"></span>
+                        <span class="mobile_hamburger_dropdown_link"
+                          >Tailored car Mats</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <span class="lnr lnr-chevron-right"></span>
+                        <span class="mobile_hamburger_dropdown_link"
+                          >Tailored car Mats</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <span class="lnr lnr-chevron-right"></span>
+                        <span class="mobile_hamburger_dropdown_link"
+                          >Tailored car Mats</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <span class="lnr lnr-chevron-right"></span>
+                        <span class="mobile_hamburger_dropdown_link"
+                          >Tailored car Mats</span
+                        ></a
+                      >
+                    </li>
+                    <li>
+                      <a href="">
+                        <span class="lnr lnr-chevron-right"></span>
+                        <span class="mobile_hamburger_dropdown_link"
+                          >Tailored car Mats</span
+                        >
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Blog -->
+            <li class = "mobile_blog"><a href="#">Blog</a></li>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 1st menu item content end -->
+    <!-- 2nd menu item content start -->
+    <div class="mobile_search_content_container" id="show_mobile_search">
+      <form action="" class="mobile_search_form">
+        <input
+          type="text"
+          name="search"
+          placeholder="Search entire store here..."
+          id="mobile_search_input"
+        />
+        <button type="submit"><span class="lnr lnr-magnifier"></span></button>
+      </form>
+    </div>
+    <!-- 2nd menu item content end -->
+    <!-- 3rd menu item content start -->
+    <div class="mobile_profile_content_container" id="show_mobile_profile">
+      <ul>
+        <li>
+          <a href="#">
+            <span class="lnr lnr-user"></span>
+            <span class="mobile_profile_link">My Account</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="lnr lnr-heart"></span>
+            <span class="mobile_profile_link">My Wish List</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="lnr lnr-user"></span>
+            <span class="mobile_profile_link">Sign In</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="lnr lnr-user"></span>
+            <span class="mobile_profile_link">Create an Account</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- 3rd menu item content end -->
+    <!-- 4th menu item content start -->
+    <div class="mobile_cart_content_container" id="show_mobile_cart">
+      <h3>You have no item in your cart. Please shopping first</h3>
+    </div>
+    <!-- 4th menu item content end -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
